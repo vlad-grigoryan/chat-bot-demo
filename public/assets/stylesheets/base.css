@@ -1,0 +1,43 @@
+@media screen and (min-width:1000px) {
+    html {
+        height: 100%;
+    }
+
+    body {
+        height:100%;
+        overflow-x: hidden;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#root, #root > div {
+    height: 100%;
+}
+
+#scrollDiv {
+    border: 0;
+}
+
+.col-md-2, .col-md-10{
+    padding:0;
+}
+
+.col-xs-12.col-md-3-12 {
+    margin-top: 50px;
+}
+
+@media screen and (min-width:2600px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:2600px) {
+    .col-xs-10.col-md-10 {
+        text-align: left;
+    }
+
+}

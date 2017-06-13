@@ -1,0 +1,23 @@
+{
+  "presets": ["es2015", "stage-0", "react"],
+  "plugins": [
+    "transform-runtime",
+    ["module-resolver", {
+      "root": ["./public/src"],
+      "alias": {
+        "actons": "./actons",
+        "components": "./components",
+        "constants": "./constants",
+        "containers": "./containers",
+        "middleware": "./middleware",
+        "reducers": "./reducers",
+        "sagas": "./sagas",
+        "services": "./services",
+        "store": "./store",
+        "classes": "./classes",
+        "src": "./src"
+
+      }
+    }]
+  ]
+}

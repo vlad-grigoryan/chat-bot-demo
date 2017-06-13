@@ -1,2 +1,4 @@
-node-modules/
+node_modules/
 .idea/
+public/bundle.js
+public/vendor.bundle.js

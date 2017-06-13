@@ -1,0 +1,96 @@
+.chatWindow {
+    bottom: 0;
+    height: 80%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.panel {
+    margin-top: 0px !important;
+    border-style: none;
+    border-radius: 5px 5px 0 0;
+    height: 100%;
+}
+
+.panel.panel-default {
+        border: 0 !important;
+
+}
+
+.botParent {
+  height: 100%;
+}
+
+.top-bar {
+    background: white !important;
+    color: white;
+    padding: 10px;
+    margin-top: 60px !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.panel-heading {
+    margin: 0 20%;
+    padding-bottom: 50px;
+    overflow-y: auto;
+}
+
+.sendButton {
+    background-color: #0084ff;
+}
+
+.send {
+    margin: 0 20%;
+    border-top: 0 !important;
+}
+
+.btn_input{
+  height: 45px !important;
+}
+
+.mainCol {
+  height: 100%;
+  margin-top: 0px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media screen and (max-width:2600px) {
+    .panel {
+        margin: 0px;
+        border: 0 !important;
+    }
+
+    .send {
+        position: fixed;
+        bottom: 0px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .panel-heading {
+        border-style: none;
+        height: 100%;
+        margin: 0 0 0 0;
+        padding-bottom: 50px;
+        padding: 12.5px 25px 55.5px !important;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .panel {
+        padding-bottom: 55px;
+        border: 0 !important;
+    }
+
+    .panel-heading {
+        padding: 16.5px 25px;
+    }
+
+    .send {
+      padding-left: 5px !important;
+      padding-right: 5px !important;
+    }
+}

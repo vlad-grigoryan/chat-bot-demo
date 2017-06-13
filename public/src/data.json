@@ -1,0 +1,23 @@
+{
+  "greeting": [
+    {
+      "type": "text",
+      "text": "Hi, I'm the Activity Finder Bot! I see you’re looking for fun activities to do at the Old Port. Let’s find the perfect one for you!"
+    },
+    {
+      "type": "text",
+      "text": "What do you say? 😊"
+    },
+    {
+      "type": "button",
+      "text": "Get Started"
+    }
+  ],
+
+  "category": [
+    {
+      "type": "text",
+      "text": "Great! What are you in the mood for?"
+    }
+  ]
+}
