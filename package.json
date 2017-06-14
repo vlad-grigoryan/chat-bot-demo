@@ -5,9 +5,9 @@
   "main": "bin/www",
   "scripts": {
     "build": "webpack  --config webpack.config.js ",
-    "start": "npm run build && nodemon --inspect ./bin/www --ignore './public'",
+    "dev": "npm run build && nodemon --inspect ./bin/www --ignore './public'",
+    "start": "node ./bin/www",
     "prod": "npm run build && NODE_ENV=production node ./bin/www",
-    "postinstall" : "webpack  --config webpack.config.js ",
     "test": "mocha --compilers js:babel-core/register ./test/**/*.spec.js --require ignore-styles"
   },
   "author": "",
