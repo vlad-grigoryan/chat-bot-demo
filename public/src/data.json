@@ -73,9 +73,210 @@
           "title": "Cultural Discoveries",
           "image": "../assets/images/camera.png",
           "backgroundColor": "#FFDCDE"
-        },
-        
+        }
       ]
     }
-  ]
+  ],
+
+  "categoryDetails": {
+    "cat_0": [
+      {
+          "type": "text",
+          "text": "Awesome! Reveal your inner sailor with these fun activities 🚣‍"
+      },
+      {
+          "type": "details",
+          "items": [
+            {
+              "title": "Écorécréo - Pedal Boats Rental",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/ecorecreo-pedal-boats-rental"
+            },
+            {
+              "title": "Rodeo-Style Speedboating",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/jet-boating-on-rapids"
+            },
+            {
+              "title": "Bateau-Mouche",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/bateau-mouche"
+            }
+          ]
+      }
+    ],
+
+    "cat_1": [
+      {
+          "type": "text",
+          "text": "I see you like excitement! 😎 You’ll definitely love these activities"
+      },
+      {
+          "type": "details",
+          "items": [
+            {
+              "title": "Aventures Wet Set MTL",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/aventures-wet-set-mtl"
+            },
+            {
+              "title": "MTL Zipline & Quick Jump",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/mtl-zipline-quick-jump"
+            },
+            {
+              "title": "Decalade",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/decalade"
+            }
+          ]
+      }
+    ],
+    "cat_2": [
+      {
+          "type": "text",
+          "text": "Always good to get the body moving! Here are some activities you’ll enjoy. 🏃‍"
+      },
+      {
+          "type": "details",
+          "items": [
+            {
+              "title": "Voiles En Voiles",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/voiles-en-voiles"
+            },
+            {
+              "title": "Écorécréo - Quadricycle Rental",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/ecorecreo-quadricycle-rental"
+            },
+            {
+              "title": "Lole – White Tour",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/event/lole-white-tour"
+            }
+          ]
+      }
+    ],
+    "cat_3": [
+      {
+          "type": "text",
+          "text": "Everyone loves to unwind. Here are some relaxing activities for you! 😊"
+      },
+      {
+          "type": "details",
+          "items": [
+            {
+              "title": "The Montreal Observation Wheel",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/montreal-observation-wheel"
+            },
+            {
+              "title": "Bota Bota, Spa-sur-l'eau",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/bota-bota-spa-sur-l-eau"
+            },
+            {
+              "title": "O'Quai Bistro",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/o-quai-bistro"
+            }
+          ]
+      }
+    ],
+    "cat_4": [
+      {
+          "type": "text",
+          "text": "Nothing better than a good drink on a terrace! 🍹 Here are some good places."
+      },
+      {
+          "type": "details",
+          "items": [
+            {
+              "title": "Scena",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/scena"
+            },
+            {
+              "title": "The Éclusiers Market",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/eclusiers-market"
+            },
+            {
+              "title": "Terrasses Bonsecours",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/terrasses-bonsecours"
+            }
+          ]
+      }
+    ],
+    "cat_5": [
+      {
+          "type": "text",
+          "text": "If you like the beach, you’ll definitely love Clock Tower Beach! 🏖️"
+      },
+      {
+          "type": "details",
+          "items": [
+            {
+              "title": "Clock Tower Beach",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/clock-tower-beach"
+            }
+          ]
+      }
+    ],
+    "cat_6": [
+      {
+          "type": "text",
+          "text": "Here are some nice places to satisfy your hunger. 🍽️"
+      },
+      {
+          "type": "details",
+          "items": [
+            {
+              "title": "Europea Mobile",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/europea-mobile-0"
+            },
+            {
+              "title": "Muvbox",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/muvbox"
+            },
+            {
+              "title": "Monsieur Crémeux",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/monsieur-cremeux"
+            }
+          ]
+      }
+    ],
+    "cat_7": [
+      {
+          "type": "text",
+          "text": "Sounds good! Here are some fun activities to learn new things 😊"
+      },
+      {
+          "type": "details",
+          "items": [
+            {
+              "title": "Le petit Navire",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/le-petit-navire"
+            },
+            {
+              "title": "Amphi-Bus Tour",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/activity/amphi-bus-tour"
+            },
+            {
+              "title": "Montréal Science Centre",
+              "image": "../assets/images/canoe.png",
+              "link": "http://www.oldportofmontreal.com/attraction/montreal-science-centre"
+            }
+          ]
+      }
+    ]
+  }
 }
