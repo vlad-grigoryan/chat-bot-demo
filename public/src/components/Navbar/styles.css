@@ -12,8 +12,8 @@
 }
 
 .logo {
-  font-size: 20px;
-  color: #000000 !important;
+    font-size: 20px;
+    color: #000000 !important;
 }
 
 .name {
@@ -35,11 +35,12 @@
     float: none;
     text-align: center;
 }
+
 .brand {
     float: none;
     padding: 17px 25px !important;
 }
 
 .link:hover {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }

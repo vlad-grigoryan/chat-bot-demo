@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import styles from './styles.css';
+import React, {Component} from "react";
+import styles from "./styles.css";
 
 export class Message extends Component {
 
@@ -12,7 +12,7 @@ export class Message extends Component {
         return (
 
 
-            <div className={`row ${styles.msg_block}`}>
+            <div className={`row msg_block ${styles.msg_block}`}>
                 <span className={`${styles.msg} ${msgClassName}`}>
                     {this.props.text}
                 </span>

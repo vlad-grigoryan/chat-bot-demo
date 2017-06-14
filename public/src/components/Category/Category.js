@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import styles from './styles.css';
+import React, {Component} from "react";
+import styles from "./styles.css";
 
 
 export default class Category extends Component {
@@ -9,12 +9,12 @@ export default class Category extends Component {
     }
 
     render() {
-        const rowClassName = this.props.type === "base_sent" ? styles[this.props.type] : "";
         return (
-                <div className={styles.item} style={{backgroundColor : this.props.backgroundColor}}>
-                    <img className={styles.itemImage} src={this.props.image} />
-                    <span className={styles.title}>{this.props.title}</span>
-                </div>
+            <div className={'msg_block ' + styles.item} style={{backgroundColor: this.props.backgroundColor}}
+                 onClick={this.props.onClick}>
+                <img className={styles.itemImage} src={this.props.image}/>
+                <span className={styles.title}>{this.props.title}</span>
+            </div>
         );
     }
 }

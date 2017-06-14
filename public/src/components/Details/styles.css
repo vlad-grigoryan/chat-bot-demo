@@ -1,0 +1,22 @@
+.link {
+    display: block;
+    width: 200px;
+    border-radius: 8px;
+    height: 128px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.21);
+    text-align: center;
+    margin: 0 auto 8px auto;
+    color: #333;
+    font-size: 12px;
+}
+
+.cover {
+    height: 104px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.title {
+    line-height: 24px;
+}

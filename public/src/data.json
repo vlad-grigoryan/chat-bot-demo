@@ -13,7 +13,6 @@
       "text": "Get Started"
     }
   ],
-
   "category": [
     {
       "type": "text",
@@ -46,28 +45,24 @@
           "image": "../assets/images/beach-chair.png",
           "backgroundColor": "#F1B6F0"
         },
-        
         {
           "id": "cat_4",
           "title": "Terrace",
           "image": "../assets/images/terrace.png",
           "backgroundColor": "#CDF1F1"
         },
-
         {
           "id": "cat_5",
           "title": "Beach",
           "image": "../assets/images/sun-umbrella.png",
           "backgroundColor": "#FFFED6"
         },
-
         {
           "id": "cat_6",
           "title": "Food",
-          "image": "../assets/images/food.png",
+          "image": "../assets/images/restaurant.png",
           "backgroundColor": "#FFDFAD"
         },
-
         {
           "id": "cat_7",
           "title": "Cultural Discoveries",
@@ -77,205 +72,203 @@
       ]
     }
   ],
-
   "categoryDetails": {
     "cat_0": [
       {
-          "type": "text",
-          "text": "Awesome! Reveal your inner sailor with these fun activities 🚣‍"
+        "type": "text",
+        "text": "Awesome! Reveal your inner sailor with these fun activities 🚣‍"
       },
       {
-          "type": "details",
-          "items": [
-            {
-              "title": "Écorécréo - Pedal Boats Rental",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/ecorecreo-pedal-boats-rental.jpg?itok=aWfOQrKp",
-              "link": "http://www.oldportofmontreal.com/activity/ecorecreo-pedal-boats-rental"
-            },
-            {
-              "title": "Rodeo-Style Speedboating",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/jet-boating-on-the-rapids.png?itok=EomE7eNs",
-              "link": "http://www.oldportofmontreal.com/activity/jet-boating-on-rapids"
-            },
-            {
-              "title": "Bateau-Mouche",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-04/BATEAU-MOUCHE%205.png?itok=BN1C4Ujp",
-              "link": "http://www.oldportofmontreal.com/activity/bateau-mouche"
-            }
-          ]
+        "type": "details",
+        "items": [
+          {
+            "title": "Écorécréo - Pedal Boats Rental",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/ecorecreo-pedal-boats-rental.jpg?itok=aWfOQrKp",
+            "link": "http://www.oldportofmontreal.com/activity/ecorecreo-pedal-boats-rental"
+          },
+          {
+            "title": "Rodeo-Style Speedboating",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/jet-boating-on-the-rapids.png?itok=EomE7eNs",
+            "link": "http://www.oldportofmontreal.com/activity/jet-boating-on-rapids"
+          },
+          {
+            "title": "Bateau-Mouche",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-04/BATEAU-MOUCHE%205.png?itok=BN1C4Ujp",
+            "link": "http://www.oldportofmontreal.com/activity/bateau-mouche"
+          }
+        ]
       }
     ],
-
     "cat_1": [
       {
-          "type": "text",
-          "text": "I see you like excitement! 😎 You’ll definitely love these activities"
+        "type": "text",
+        "text": "I see you like excitement! 😎 You’ll definitely love these activities"
       },
       {
-          "type": "details",
-          "items": [
-            {
-              "title": "Aventures Wet Set MTL",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/adventures-wet-set-mtl.png?itok=iz584Yd9",
-              "link": "http://www.oldportofmontreal.com/activity/aventures-wet-set-mtl"
-            },
-            {
-              "title": "MTL Zipline & Quick Jump",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/mtl-zip-line-and-quick-jump.jpg?itok=78gS1UOT",
-              "link": "http://www.oldportofmontreal.com/activity/mtl-zipline-quick-jump"
-            },
-            {
-              "title": "Decalade",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/decalade_2.jpg?itok=Zk8toU7-",
-              "link": "http://www.oldportofmontreal.com/activity/decalade"
-            }
-          ]
+        "type": "details",
+        "items": [
+          {
+            "title": "Aventures Wet Set MTL",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/adventures-wet-set-mtl.png?itok=iz584Yd9",
+            "link": "http://www.oldportofmontreal.com/activity/aventures-wet-set-mtl"
+          },
+          {
+            "title": "MTL Zipline & Quick Jump",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/mtl-zip-line-and-quick-jump.jpg?itok=78gS1UOT",
+            "link": "http://www.oldportofmontreal.com/activity/mtl-zipline-quick-jump"
+          },
+          {
+            "title": "Decalade",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/decalade_2.jpg?itok=Zk8toU7-",
+            "link": "http://www.oldportofmontreal.com/activity/decalade"
+          }
+        ]
       }
     ],
     "cat_2": [
       {
-          "type": "text",
-          "text": "Always good to get the body moving! Here are some activities you’ll enjoy. 🏃‍"
+        "type": "text",
+        "text": "Always good to get the body moving! Here are some activities you’ll enjoy. 🏃‍"
       },
       {
-          "type": "details",
-          "items": [
-            {
-              "title": "Voiles En Voiles",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/voiles-en-voiles.jpg?itok=TChFkRj8",
-              "link": "http://www.oldportofmontreal.com/activity/voiles-en-voiles"
-            },
-            {
-              "title": "Écorécréo - Quadricycle Rental",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/ecorecreo-quadricycle-rental.jpg?itok=b1k9EEUy",
-              "link": "http://www.oldportofmontreal.com/activity/ecorecreo-quadricycle-rental"
-            },
-            {
-              "title": "Lole – White Tour",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-04/16_mrk_lwt_01_eventbrite_2160x10801_1.jpg?itok=hEXybswV",
-              "link": "http://www.oldportofmontreal.com/event/lole-white-tour"
-            }
-          ]
+        "type": "details",
+        "items": [
+          {
+            "title": "Voiles En Voiles",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/voiles-en-voiles.jpg?itok=TChFkRj8",
+            "link": "http://www.oldportofmontreal.com/activity/voiles-en-voiles"
+          },
+          {
+            "title": "Écorécréo - Quadricycle Rental",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/ecorecreo-quadricycle-rental.jpg?itok=b1k9EEUy",
+            "link": "http://www.oldportofmontreal.com/activity/ecorecreo-quadricycle-rental"
+          },
+          {
+            "title": "Lole – White Tour",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-04/16_mrk_lwt_01_eventbrite_2160x10801_1.jpg?itok=hEXybswV",
+            "link": "http://www.oldportofmontreal.com/event/lole-white-tour"
+          }
+        ]
       }
     ],
     "cat_3": [
       {
-          "type": "text",
-          "text": "Everyone loves to unwind. Here are some relaxing activities for you! 😊"
+        "type": "text",
+        "text": "Everyone loves to unwind. Here are some relaxing activities for you! 😊"
       },
       {
-          "type": "details",
-          "items": [
-            {
-              "title": "The Montreal Observation Wheel",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-04/DW60%20-%203D%20Rendering%20-%20View%203.jpg?itok=H2uG4m9-",
-              "link": "http://www.oldportofmontreal.com/activity/montreal-observation-wheel"
-            },
-            {
-              "title": "Bota Bota, Spa-sur-l'eau",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/bota-bota-spa-sur-leau.png?itok=z-wOfNP9",
-              "link": "http://www.oldportofmontreal.com/activity/bota-bota-spa-sur-l-eau"
-            },
-            {
-              "title": "O'Quai Bistro",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/oquai-bistro.jpg?itok=0BaMfiUE",
-              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/o-quai-bistro"
-            }
-          ]
+        "type": "details",
+        "items": [
+          {
+            "title": "The Montreal Observation Wheel",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-04/DW60%20-%203D%20Rendering%20-%20View%203.jpg?itok=H2uG4m9-",
+            "link": "http://www.oldportofmontreal.com/activity/montreal-observation-wheel"
+          },
+          {
+            "title": "Bota Bota, Spa-sur-l'eau",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/bota-bota-spa-sur-leau.png?itok=z-wOfNP9",
+            "link": "http://www.oldportofmontreal.com/activity/bota-bota-spa-sur-l-eau"
+          },
+          {
+            "title": "O'Quai Bistro",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/oquai-bistro.jpg?itok=0BaMfiUE",
+            "link": "http://www.oldportofmontreal.com/restaurants-boutiques/o-quai-bistro"
+          }
+        ]
       }
     ],
     "cat_4": [
       {
-          "type": "text",
-          "text": "Nothing better than a good drink on a terrace! 🍹 Here are some good places."
+        "type": "text",
+        "text": "Nothing better than a good drink on a terrace! 🍹 Here are some good places."
       },
       {
-          "type": "details",
-          "items": [
-            {
-              "title": "Scena",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/scena.jpg?itok=W5z0CQPa",
-              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/scena"
-            },
-            {
-              "title": "The Éclusiers Market",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-05/18738874_1517133888358328_7472912049084436674_o.jpg?itok=IDS7MYBG",
-              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/eclusiers-market"
-            },
-            {
-              "title": "Terrasses Bonsecours",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/terrasses-bonsecours_0.jpg?itok=2SIPr4QD",
-              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/terrasses-bonsecours"
-            }
-          ]
+        "type": "details",
+        "items": [
+          {
+            "title": "Scena",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/scena.jpg?itok=W5z0CQPa",
+            "link": "http://www.oldportofmontreal.com/restaurants-boutiques/scena"
+          },
+          {
+            "title": "The Éclusiers Market",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-05/18738874_1517133888358328_7472912049084436674_o.jpg?itok=IDS7MYBG",
+            "link": "http://www.oldportofmontreal.com/restaurants-boutiques/eclusiers-market"
+          },
+          {
+            "title": "Terrasses Bonsecours",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/terrasses-bonsecours_0.jpg?itok=2SIPr4QD",
+            "link": "http://www.oldportofmontreal.com/restaurants-boutiques/terrasses-bonsecours"
+          }
+        ]
       }
     ],
     "cat_5": [
       {
-          "type": "text",
-          "text": "If you like the beach, you’ll definitely love Clock Tower Beach! 🏖️"
+        "type": "text",
+        "text": "If you like the beach, you’ll definitely love Clock Tower Beach! 🏖️"
       },
       {
-          "type": "details",
-          "items": [
-            {
-              "title": "Clock Tower Beach",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/clock-tower-beach_0.jpg?itok=AcBHO8u_",
-              "link": "http://www.oldportofmontreal.com/activity/clock-tower-beach"
-            }
-          ]
+        "type": "details",
+        "items": [
+          {
+            "title": "Clock Tower Beach",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/clock-tower-beach_0.jpg?itok=AcBHO8u_",
+            "link": "http://www.oldportofmontreal.com/activity/clock-tower-beach"
+          }
+        ]
       }
     ],
     "cat_6": [
       {
-          "type": "text",
-          "text": "Here are some nice places to satisfy your hunger. 🍽️"
+        "type": "text",
+        "text": "Here are some nice places to satisfy your hunger. 🍽️"
       },
       {
-          "type": "details",
-          "items": [
-            {
-              "title": "Europea Mobile",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-05/Europ%C3%A9a%20Mobile%20principale.jpg?itok=OJ1h8gau",
-              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/europea-mobile-0"
-            },
-            {
-              "title": "Muvbox",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/muvbox.jpg?itok=pczWJSSx",
-              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/muvbox"
-            },
-            {
-              "title": "Monsieur Crémeux",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-03/monsieur-cremeux_0.png?itok=GrS9TOND",
-              "link": "http://www.oldportofmontreal.com/restaurants-boutiques/monsieur-cremeux"
-            }
-          ]
+        "type": "details",
+        "items": [
+          {
+            "title": "Europea Mobile",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-05/Europ%C3%A9a%20Mobile%20principale.jpg?itok=OJ1h8gau",
+            "link": "http://www.oldportofmontreal.com/restaurants-boutiques/europea-mobile-0"
+          },
+          {
+            "title": "Muvbox",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/muvbox.jpg?itok=pczWJSSx",
+            "link": "http://www.oldportofmontreal.com/restaurants-boutiques/muvbox"
+          },
+          {
+            "title": "Monsieur Crémeux",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-03/monsieur-cremeux_0.png?itok=GrS9TOND",
+            "link": "http://www.oldportofmontreal.com/restaurants-boutiques/monsieur-cremeux"
+          }
+        ]
       }
     ],
     "cat_7": [
       {
-          "type": "text",
-          "text": "Sounds good! Here are some fun activities to learn new things 😊"
+        "type": "text",
+        "text": "Sounds good! Here are some fun activities to learn new things 😊"
       },
       {
-          "type": "details",
-          "items": [
-            {
-              "title": "Le petit Navire",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/le-petit-navire.jpg?itok=94z96EeL",
-              "link": "http://www.oldportofmontreal.com/activity/le-petit-navire"
-            },
-            {
-              "title": "Amphi-Bus Tour",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/amphibus-tour.jpg?itok=ZXnhIn3O",
-              "link": "http://www.oldportofmontreal.com/activity/amphi-bus-tour"
-            },
-            {
-              "title": "Montréal Science Centre",
-              "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/montreal-science-center.jpg?itok=Sz2_38uu",
-              "link": "http://www.oldportofmontreal.com/attraction/montreal-science-centre"
-            }
-          ]
+        "type": "details",
+        "items": [
+          {
+            "title": "Le petit Navire",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/le-petit-navire.jpg?itok=94z96EeL",
+            "link": "http://www.oldportofmontreal.com/activity/le-petit-navire"
+          },
+          {
+            "title": "Amphi-Bus Tour",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/amphibus-tour.jpg?itok=ZXnhIn3O",
+            "link": "http://www.oldportofmontreal.com/activity/amphi-bus-tour"
+          },
+          {
+            "title": "Montréal Science Centre",
+            "image": "http://www.oldportofmontreal.com/sites/default/files/styles/hero/public/2017-02/montreal-science-center.jpg?itok=Sz2_38uu",
+            "link": "http://www.oldportofmontreal.com/attraction/montreal-science-centre"
+          }
+        ]
       }
     ]
   }
