@@ -18,6 +18,35 @@
     {
       "type": "text",
       "text": "Great! What are you in the mood for?"
+    },
+    {
+      "type": "category",
+      "items": [
+        {
+          "id": "cat_0",
+          "title": "Nautical activities",
+          "image": "../assets/images/canoe.png",
+          "backgroundColor": "#6CDEE6"
+        },
+        {
+          "id": "cat_1",
+          "title": "Thrilling sensations",
+          "image": "../assets/images/parachutist.png",
+          "backgroundColor": "#FFA494"
+        },
+        {
+          "id": "cat_2",
+          "title": "Exercise",
+          "image": "../assets/images/runner.png",
+          "backgroundColor": "#98FF84"
+        },
+        {
+          "id": "cat_3",
+          "title": "Relax",
+          "image": "../assets/images/beach-chair.png",
+          "backgroundColor": "#F1B6F0"
+        }
+      ]
     }
   ]
 }

@@ -55,6 +55,10 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+.catContainer {
+    width: 256px;
+    margin : 0 auto;
+}
 
 @media screen and (max-width:2600px) {
     .panel {

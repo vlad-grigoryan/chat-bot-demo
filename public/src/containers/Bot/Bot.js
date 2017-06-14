@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import styles from './styles.css';
 
-import { Navbar, Message, Button } from '../../components';
+import { Navbar, Message, Button, Category } from '../../components';
 import Data from '../../data.json';
 
 export class Bot extends Component {
@@ -61,7 +61,6 @@ export class Bot extends Component {
     addMessage = (text, text_type, type) => {
         let messages = [...this.state.messages];
 
-        console.log("TYPE", type);
         messages.push({
             text: text || "Sorry, I do not fully understand...",
             text_type: text_type || this.MSG_RECEIVE_TYPE,
@@ -75,6 +74,20 @@ export class Bot extends Component {
 
         this.scrollBottom();
 
+    };
+
+    addCategory = (catList, type) => {
+        let messages = [...this.state.messages];
+
+        messages.push({
+            list: catList,
+            type: type
+        });
+
+        this.setState({
+            messages
+        });
+        this.scrollBottom();
     };
 
 
@@ -93,11 +106,26 @@ export class Bot extends Component {
             
             if(message.type == 'text') {
                 return (
-                    <Message key={id} type={message.text_type} text={message.text} />
+                    <Message key={"text"+id} type={message.text_type} text={message.text} />
                 );
             } else if(message.type == 'button'){
                 return (
-                    <Button key={id} type={message.text_type} text={message.text} onclick={this.getStarted}></Button>
+                    <Button key={id} type={message.text_type} text={message.text} onclick={this.getStarted} />
+                )
+            }
+            else if(message.type == 'category') {
+                return (
+                    <div key={id} className={"row " + styles.catContainer}>
+                        {message.list.map((category, catId) => {
+                            return (
+                                <Category
+                                    key={category.id}
+                                    image={category.image}
+                                    backgroundColor={category.backgroundColor}
+                                    title={category.title} />
+                            )
+                        })}
+                    </div>
                 )
             }
         })
@@ -163,10 +191,15 @@ export class Bot extends Component {
 
         return Data.category.map(response => {
 
-            setTimeout(function () {
-                self.addMessage(response.text, self.MSG_RECEIVE_TYPE, response.type);
-            }, 200)
-
+            if(response.type === 'category') {
+                setTimeout(function () {
+                    self.addCategory(response.items, response.type)
+                }, 200)
+            } else {
+                setTimeout(function () {
+                    self.addMessage(response.text, self.MSG_RECEIVE_TYPE, response.type);
+                }, 200)
+            }
         });
 
     };

@@ -1,0 +1,36 @@
+.item {
+    margin: 2px 3px;
+    width: 120px;
+    height: 110px;
+    border:1px solid #979797;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+.outItem{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+}
+.innerItem {
+    border:1px solid #979797;
+    border-radius: 13px;
+    width: 120px;
+    margin: 0 auto;
+}
+.itemImage{
+    max-width: 78px;
+    max-height: 69px;
+}
+.title{
+    font-size:12px;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
