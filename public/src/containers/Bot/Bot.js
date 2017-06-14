@@ -60,39 +60,36 @@ export class Bot extends Component {
     addMessage = (text, text_type, type) => {
         let self = this;
 
-        setTimeout(function () {
+        setTimeout(() => {
 
-            let messages = [...self.state.messages];
+            let messages = [...this.state.messages];
 
             messages.push({
                 text: text,
-                text_type: text_type || self.MSG_RECEIVE_TYPE,
-                type: type
-
+                text_type: text_type || this.MSG_RECEIVE_TYPE,
+                type: type,
             });
 
-            self.setState({
+            this.setState({
                 messages
             });
-
-            self.scrollBottom();
+            this.scrollBottom();
         }, 200);
     };
 
     addContent = (catList, type) => {
-        let self = this;
-        setTimeout(function () {
-            let messages = [...self.state.messages];
+        setTimeout(() => {
+            let messages = [...this.state.messages];
 
             messages.push({
                 list: catList,
                 type: type
             });
 
-            self.setState({
+            this.setState({
                 messages
             });
-            self.scrollBottom();
+            this.scrollBottom();
         }, 200);
     };
 
@@ -110,16 +107,16 @@ export class Bot extends Component {
 
         return this.state.messages.map((message, id) => {
 
-            if (message.type == 'text') {
+            if (message.type === 'text') {
                 return (
                     <Message key={"text" + id} type={message.text_type} text={message.text}/>
                 );
-            } else if (message.type == 'button') {
+            } else if (message.type === 'button') {
                 return (
                     <Button key={id} type={message.text_type} text={message.text} onclick={this.getStarted}/>
                 )
             }
-            else if (message.type == 'category') {
+            else if (message.type === 'category') {
                 let self = this;
                 return (
                     <div key={id} className={"row " + styles.catContainer}>
@@ -205,7 +202,7 @@ export class Bot extends Component {
         let catergoryList = Data.category;
 
         for (let i = 0; i < catergoryList.length; i++) {
-            if(catergoryList[i].type == 'category') {
+            if(catergoryList[i].type === 'category') {
                 this.addContent(catergoryList[i].items, catergoryList[i].type)
             } else {
                 this.addMessage(catergoryList[i].text, this.MSG_RECEIVE_TYPE, catergoryList[i].type);
