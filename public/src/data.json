@@ -45,7 +45,36 @@
           "title": "Relax",
           "image": "../assets/images/beach-chair.png",
           "backgroundColor": "#F1B6F0"
-        }
+        },
+        
+        {
+          "id": "cat_4",
+          "title": "Terrace",
+          "image": "../assets/images/terrace.png",
+          "backgroundColor": "#CDF1F1"
+        },
+
+        {
+          "id": "cat_5",
+          "title": "Beach",
+          "image": "../assets/images/sun-umbrella.png",
+          "backgroundColor": "#FFFED6"
+        },
+
+        {
+          "id": "cat_6",
+          "title": "Food",
+          "image": "../assets/images/food.png",
+          "backgroundColor": "#FFDFAD"
+        },
+
+        {
+          "id": "cat_7",
+          "title": "Cultural Discoveries",
+          "image": "../assets/images/camera.png",
+          "backgroundColor": "#FFDCDE"
+        },
+        
       ]
     }
   ]
