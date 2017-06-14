@@ -3,15 +3,14 @@ const express = require('express');
 const logger = require('morgan');
 
 
-const webpackConfig = require('./webpack.config');
-const webpack = require('webpack');
-const webpackDevMiddleware = require('webpack-dev-middleware');
-const webpackHotMiddleware = require('webpack-hot-middleware');
-
-
 const app = express();
 
-if(process.env.NODE_ENV == 'local' || !process.env.NODE_ENV) {
+if(process.env.NODE_ENV === 'local' || !process.env.NODE_ENV) {
+    const webpackConfig = require('./webpack.config');
+    const webpackDevMiddleware = require('webpack-dev-middleware');
+    const webpackHotMiddleware = require('webpack-hot-middleware');
+
+    const webpack = require('webpack');
     let compiler = webpack(webpackConfig);
 
     app.use(webpackDevMiddleware(compiler, {
