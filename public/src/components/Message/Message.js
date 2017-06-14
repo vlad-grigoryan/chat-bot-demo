@@ -8,15 +8,14 @@ export class Message extends Component {
     }
 
     render() {
-        const msgClassName = this.props.type === "base_sent" ? styles["msg_receive"] : styles["msg_sent"];
-        const rowClassName = this.props.type === "base_sent" ? styles[this.props.type] : "";
+        const msgClassName = this.props.type === "base_sent" ? styles["msg_right"] : styles["msg_left"];
         return (
-            <div className={`row msg ${styles.msg_container} ${rowClassName}`}>
-                <div className={"col-xs-10 col-md-10 " + styles.message}>
-                    <div className={`${styles.messages} ${msgClassName}`}>
-                        <p className={styles.msgTxt}>{this.props.text}</p>
-                    </div>
-                </div>
+
+
+            <div className={`row ${styles.msg_block}`}>
+                <span className={`${styles.msg} ${msgClassName}`}>
+                    {this.props.text}
+                </span>
             </div>
         );
     }

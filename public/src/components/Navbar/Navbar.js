@@ -8,7 +8,7 @@ export class NavbarContainer extends Component {
                 <nav className={styles.navbar + " navbar navbar-default"}>
                     <div className={"navbar-header " + styles.header}>
                         <div className={"navbar-brand " + styles.brand}>
-                            <a href="/patient" className={styles.link}>
+                            <a href="/" className={styles.link}>
                               <b>
                                 <span className={styles.logo}>Old Port's Activitiy Finder</span>
                                 <span className={`hidden-xs ${styles.name}`} />

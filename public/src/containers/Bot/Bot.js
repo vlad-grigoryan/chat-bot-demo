@@ -89,12 +89,8 @@ export class Bot extends Component {
             return (<div></div>);
         }
 
-        let id = 0;
-
-        return this.state.messages.map(message => {
-
-            id += 1;
-
+        return this.state.messages.map((message, id) => {
+            
             if(message.type == 'text') {
                 return (
                     <Message key={id} type={message.text_type} text={message.text} />

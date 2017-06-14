@@ -15,60 +15,11 @@
     box-shadow: none;
     color: #49a3f9;
 }
-.msg_receive{
-    background-color: #0084ff;
-    color: white;
-    margin-left:0;
-    float: right;
+
+
+.msg_center {
+    text-align: center;
 }
-
-.msg_sent{
-    margin-right:0;
-    float: left;
+.msg_block{
+    margin:12px 0px;
 }
-.base_sent {
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.base_sent > .avatar:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    border: 5px solid white;
-    border-right-color: transparent;
-    border-top-color: transparent;
-    /*box-shadow: 1px 1px 2px rgba(black, 0.2); // not perfect but quite close*/
-}
-
-.msg_container {
-    padding: 3px 10px 0;
-    overflow: hidden;
-    display: flex;
-}
-
-@media screen and (max-width:2600px) {
-
-    .messages > p {
-        font-size: 14px;
-        line-height: 20px;
-        float: left;
-        text-align: left !important;
-    }
-
-    .msg_container {
-        margin-right: -29px;
-        margin-left: -29px;
-    }
-
-}
-.message {
-    line-height: 15px;
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-    text-align: center !important;
-}
-
