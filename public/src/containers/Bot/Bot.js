@@ -3,7 +3,8 @@ import $ from "jquery";
 import styles from "./styles.css";
 
 import {Button, Category, Details, Message, Navbar} from "../../components";
-import Data from "../../data.json";
+import activitiyData from "../../Data/activitiy.json";
+import brandData from "../../Data/brand.json";
 
 export class Bot extends Component {
 
@@ -22,7 +23,8 @@ export class Bot extends Component {
             messages: [],
             isInputFocused: false,
             typing: false,
-            catId: null
+            catId: null,
+            DataObject: props.location.query.botId == 'brand' ? brandData : activitiyData
         };
     }
 
@@ -77,6 +79,29 @@ export class Bot extends Component {
         }, 200);
     };
 
+    addButton = (buttonObject) => {
+        let self = this;
+
+        setTimeout(() => {
+
+            let messages = [...this.state.messages];
+
+            messages.push({
+                text: buttonObject.text,
+                type: buttonObject.type,
+                itemType: buttonObject.itemType,
+                payload: buttonObject.payload
+            });
+
+            this.setState({
+                messages
+            });
+            this.scrollBottom();
+        }, 200);
+
+
+    };
+
     addContent = (catList, type) => {
         setTimeout(() => {
             let messages = [...this.state.messages];
@@ -100,6 +125,19 @@ export class Bot extends Component {
         });
     };
 
+    openCategory = (items) => {
+    let catergoryList = this.state.DataObject.category;
+
+        for (let i = 0; i < catergoryList.length; i++) {
+            if(catergoryList[i].type === 'category') {
+                this.addContent(catergoryList[i][items], catergoryList[i].type)
+            } else {
+                this.addMessage(catergoryList[i].text, this.MSG_RECEIVE_TYPE, catergoryList[i].type);
+
+            }
+        }
+    };
+
     getMessageList = () => {
         if (this.state.messages.length === 0) {
             return (<div></div>);
@@ -113,7 +151,7 @@ export class Bot extends Component {
                 );
             } else if (message.type === 'button') {
                 return (
-                    <Button key={id} type={message.text_type} text={message.text} onclick={this.getStarted}/>
+                    <Button key={id} type={message.text_type} text={message.text}  onclick={()=> this.openCategory(message.itemType)}/>
                 )
             }
             else if (message.type === 'category') {
@@ -155,6 +193,7 @@ export class Bot extends Component {
     };
 
 
+
     handleTextChange = (e) => {
         this.setState({
             [e.target.name]: e.target.value
@@ -191,15 +230,21 @@ export class Bot extends Component {
     };
 
     greetingMessage = () => {
-        let greetingList = Data.greeting;
+        let greetingList = this.state.DataObject.greeting;
 
         for (let i = 0; i < greetingList.length; i++) {
-            this.addMessage(greetingList[i].text, this.MSG_RECEIVE_TYPE, greetingList[i].type);
+            if(greetingList[i].type === 'button') {
+                this.addButton(greetingList[i]);
+
+            } else {
+                this.addMessage(greetingList[i].text, this.MSG_RECEIVE_TYPE, greetingList[i].type);
+
+            }
         }
     };
 
     getStarted = () => {
-        let catergoryList = Data.category;
+        let catergoryList = this.state.DataObject.category;
 
         for (let i = 0; i < catergoryList.length; i++) {
             if(catergoryList[i].type === 'category') {
@@ -214,7 +259,7 @@ export class Bot extends Component {
     openDetails = (catId, title) => {
         this.addMessage(title, this.MSG_SENT_TYPE, 'text');
 
-        let catDetailsList = Data.categoryDetails[catId];
+        let catDetailsList = this.state.DataObject.categoryDetails[catId];
 
         for (let i = 0; i < catDetailsList.length; i++) {
             if (catDetailsList[i].type === 'details') {
@@ -235,7 +280,7 @@ export class Bot extends Component {
         const typing = this.state.typing ? <img src={this.state.typing} className={styles.typing}/> : "";
         return (
             <div className={styles.botParent}>
-                <Navbar />
+                <Navbar title={this.state.DataObject.navBar.title} />
                 <div id="chat_window_1" className={"row " + styles.chatWindow}>
                     <div className={"col-xs-12 col-md-3-12 " + styles.mainCol}>
                         <div id="background" className="panel-default"></div>

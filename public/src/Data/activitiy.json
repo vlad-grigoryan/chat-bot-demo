@@ -1,4 +1,7 @@
 {
+  "navBar": {
+    "title": "Old Port's Activitiy Finder"
+  },
   "greeting": [
     {
       "type": "text",
@@ -10,9 +13,12 @@
     },
     {
       "type": "button",
-      "text": "Get Started"
+      "text": "Get Started",
+      "itemType": "activitiy",
+      "payload":"openActivitiy"
     }
   ],
+
   "category": [
     {
       "type": "text",
@@ -20,7 +26,7 @@
     },
     {
       "type": "category",
-      "items": [
+      "activitiy": [
         {
           "id": "cat_0",
           "title": "Nautical activities",

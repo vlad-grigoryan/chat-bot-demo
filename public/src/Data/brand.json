@@ -1,0 +1,221 @@
+{
+  "navBar": {
+    "title": "Brand"
+  },
+  "greeting": [
+    {
+      "type": "text",
+      "text": "Which gender collection are you looking for?"
+    },
+    {
+      "type": "button",
+      "text": "Men’s ",
+      "itemType": "men",
+      "payload":"openMen"
+    },
+    {
+      "type": "button",
+      "text": "Women’s",
+      "itemType": "women",
+      "payload":"openWomen"
+    }
+  ],
+  "category": [
+    {
+      "type": "text",
+      "text": "What category are you looking for?"
+    },
+    {
+      "type": "category",
+      "men": [
+        {
+          "id": "men_0",
+          "title": "Shoes",
+          "image": "../assets/images/men/running-shoes.png",
+          "backgroundColor": "#6CDEE6"
+        },
+        {
+          "id": "men_1",
+          "title": "Clothing",
+          "image": "../assets/images/men/shirt.png",
+          "backgroundColor": "#FFA494"
+        },
+        {
+          "id": "men_2",
+          "title": "Tech",
+          "image": "../assets/images/men/wristwatch.png",
+          "backgroundColor": "#98FF84"
+        },
+        {
+          "id": "men_3",
+          "title": "Running Accessories",
+          "image": "../assets/images/men/sport-sunglasses.png",
+          "backgroundColor": "#F1B6F0"
+        }
+      ],
+      "women": [
+        {
+          "id": "women_0",
+          "title": "Shoes",
+          "image": "../assets/images/women/running-shoes.png",
+          "backgroundColor": "#6CDEE6"
+        },
+        {
+          "id": "women_1",
+          "title": "Clothing",
+          "image": "../assets/images/women/swimming-suit.png",
+          "backgroundColor": "#FFA494"
+        },
+        {
+          "id": "women_2",
+          "title": "Tech",
+          "image": "../assets/images/women/smartphone.png",
+          "backgroundColor": "#98FF84"
+        },
+        {
+          "id": "women_3",
+          "title": "Running Accessories",
+          "image": "../assets/images/women/runner.png",
+          "backgroundColor": "#F1B6F0"
+        }
+      ]
+    }
+    ],
+  "categoryDetails": {
+    "men_0": [
+      {
+        "type": "details",
+        "items": [
+          {
+            "title": "Men's Running Shoes",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332253205_99_a?wid=288&hei=288&op_sharpen=1&resMode=sharp2://officelunch.am",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/mens/running-shoes.html?cid=dsm-fy18-summer-essen-conto"
+          }
+        ]
+      }
+    ],
+    "men_1": [
+      {
+        "type": "text",
+        "text": "Which category for clothing for you looking for?‍"
+      },
+      {
+        "type": "details",
+        "items": [
+          {
+            "title": "Tanks",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332201297_40_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/mens/tanks.html?cid=dsm-fy18-summer-essen-conto"
+          },
+          {
+            "title": "Short sleeves ",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332252832_42_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/mens/t-shirts.html?cid=dsm-fy18-summer-essen-conto"
+          },
+          {
+            "title": "Shorts",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332255791_01_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/mens/shorts.html?cid=dsm-fy18-summer-essen-conto"
+          },
+          {
+            "title": "Tights",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332214461_01_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/mens/tights.html?cid=dsm-fy18-summer-essen-conto"
+          }
+        ]
+      }
+    ],
+    "men_2": [
+      {
+        "type": "details",
+        "items": [
+          {
+            "title": "Fitbit & Running Electronics",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332234251_99_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/electronics.html?cid=dsm-fy18-summer-essen-conto"
+          }
+        ]
+      }
+    ],
+    "men_3": [
+      {
+        "type": "details",
+        "items": [
+          {
+            "title": "Running Accessories",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332024772_40_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/accessories.html#lastVisibleProductNumber=3?cid=dsm-fy18-summer-essen-conto"
+          }
+        ]
+      }
+    ],
+
+    "women_0": [
+      {
+        "type": "details",
+        "items": [
+          {
+            "title": "Women's Running Shoes",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332255864_99_a?wid=288&hei=288&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/womens-running/womens-running-shoes.html?cid=dsm-fy18-summer-essen-conto"
+          }
+        ]
+      }
+    ],
+    "women_1": [
+      {
+        "type": "text",
+        "text": "Which category for clothing for you looking for?‍"
+      },
+      {
+        "type": "details",
+        "items": [
+          {
+            "title": "Tanks",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332267658_85_a?wid=155&hei=155&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/womens-running/womens-running-tanks.html?cid=dsm-fy18-summer-essen-conto"
+          },
+          {
+            "title": "Short sleeves ",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332228152_05_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/womens-running/womens-running-short-sleeves.html?cid=dsm-fy18-summer-essen-conto"
+          },
+          {
+            "title": "Shorts",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332267634_01_a?wid=288&hei=200&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/womens-running/womens-running-shorts.html?cid=dsm-fy18-summer-essen-conto"
+          },
+          {
+            "title": "Tights",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332193724_01_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/womens-running/womens-running-tights-and-pants.html?cid=dsm-fy18-summer-essen-conto"
+          }
+        ]
+      }
+    ],
+    "women_2": [
+      {
+        "type": "details",
+        "items": [
+          {
+            "title": "Fitbit & Running Electronics",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332261796_99_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/electronics.html?cid=dsm-fy18-summer-essen-conto"
+          }
+        ]
+      }
+    ],
+    "women_3": [
+      {
+        "type": "details",
+        "items": [
+          {
+            "title": "Running Accessories",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332336857_99_a?wid=288&hei=288&op_sharpen=1&resMode=sharp2",
+            "link": "https://www.sportchek.ca/categories/shop-by-sport/running/accessories.html#lastVisibleProductNumber=3?cid=dsm-fy18-summer-essen-conto"
+          }
+        ]
+      }
+    ]
+  }
+}
