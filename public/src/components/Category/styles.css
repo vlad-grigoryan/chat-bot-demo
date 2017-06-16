@@ -25,3 +25,8 @@
     text-align: center;
     left: 0;
 }
+
+.catContainer {
+    width: 256px;
+    margin: 0 auto;
+}

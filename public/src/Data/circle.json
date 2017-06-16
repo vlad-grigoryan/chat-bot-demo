@@ -1,0 +1,160 @@
+{
+  "navBar": {
+    "title": "Cycling"
+  },
+
+  "greeting": [
+    {
+      "type": "text",
+      "text": "What are you looking for?"
+    },
+    {
+      "type": "category",
+      "initial" : true,
+      "items": [
+        {
+          "id": "bike_0",
+          "title": "Bikes",
+          "image": "../assets/images/bike/bicycle.png",
+          "backgroundColor": "#FFA494"
+        },
+        {
+          "id": "bike_1",
+          "title": "Cycling clothing",
+          "image": "../assets/images/bike/bike-clothes.png",
+          "backgroundColor": "#6CDEE6"
+        },
+        {
+          "id": "bike_2",
+          "title": "Bike helmets",
+          "image": "../assets/images/bike/helmet.png",
+          "backgroundColor": "#98FF84"
+        },
+        {
+          "id": "bike_3",
+          "title": "Bike accessories",
+          "image": "../assets/images/bike/water-bottle.png",
+          "backgroundColor": "#F1B6F0"
+        },
+        {
+          "id": "bike_4",
+          "title": "Cycling electronics",
+          "image": "../assets/images/bike/wristwatch.png",
+          "backgroundColor": "#CDF1F1"
+        }
+      ]
+    }
+  ],
+
+    "categoryDetails" : {
+      "bike_0": [
+        {
+          "type": "text",
+          "text": "Which type of bike are you looking for?‍"
+        },
+        {
+          "type": "details",
+          "items": [
+            {
+              "title": "Mountain bike",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332210865_99_a?wid=288&hei=230&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/bikes/mountain-bikes.html?cid=dsm-fy18-summer-essen-conto"
+            },
+            {
+              "title": "City and comfort bike",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332210552_99_a?wid=288&hei=230&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/bikes/city-hybrid-bikes.html?cid=dsm-fy18-summer-essen-conto"
+            },
+            {
+              "title": "Road bike",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332217278_99_a?wid=288&hei=230&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/bikes/road-bikes.html?cid=dsm-fy18-summer-essen-conto"
+            },
+            {
+              "title": "BMX bike",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332210534_99_a?wid=288&hei=230&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/bikes/bmx-bikes.html?cid=dsm-fy18-summer-essen-conto"
+            }
+          ]
+        }
+      ],
+      "bike_1" :[
+        {
+          "type": "text",
+          "text": "Which gender collection are you looking for?‍"
+        },
+        {
+          "type": "details",
+          "items": [
+            {
+              "title": "Men’s",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332178972_08_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/cycling-apparel.html#preselectedBrandsNumber=0&preselectedCategoriesNumber=3&q1=Shop+by+Sport&q2=Cycling&q3=Cycling+Apparel&q4=Men&rank=ApparelRankSSTop&x1=c.category-level-1&x2=c.category-level-2&x3=c.category-level-3&x4=gender&lastVisibleProductNumber=4?cid=dsm-fy18-summer-essen-conto"
+            },
+            {
+              "title": "Women’s",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332178940_01_a?wid=288&hei=180&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/cycling-apparel.html#preselectedBrandsNumber=0&preselectedCategoriesNumber=3&q1=Shop+by+Sport&q2=Cycling&q3=Cycling+Apparel&q4=Women&rank=ApparelRankSSTop&x1=c.category-level-1&x2=c.category-level-2&x3=c.category-level-3&x4=gender&lastVisibleProductNumber=12?cid=dsm-fy18-summer-essen-conto"
+            }
+          ]
+        }
+      ],
+      "bike_2" :[
+        {
+          "type": "text",
+          "text": "Which gender are you looking for?‍"
+        },
+        {
+          "type": "details",
+          "items": [
+            {
+              "title": "Men’s",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332261641_99_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/bike-helmets.html#preselectedBrandsNumber=0&preselectedCategoriesNumber=3&q1=Shop+by+Sport&q2=Cycling&q3=Bike+Helmets&q4=Men&rank=rank-bike-2017&sort=title&x1=c.category-level-1&x2=c.category-level-2&x3=c.category-level-3&x4=gender?cid=dsm-fy18-summer-essen-conto"
+            },
+            {
+              "title": "Women’s",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332261639_99_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/bike-helmets.html#preselectedBrandsNumber=0&preselectedCategoriesNumber=3&q1=Shop+by+Sport&q2=Cycling&q3=Bike+Helmets&q4=Women&rank=rank-bike-2017&sort=title&x1=c.category-level-1&x2=c.category-level-2&x3=c.category-level-3&x4=gender?cid=dsm-fy18-summer-essen-conto"
+            },
+            {
+              "title": "Boys’",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332261648_99_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/bike-helmets.html#preselectedBrandsNumber=0&preselectedCategoriesNumber=3&q1=Shop+by+Sport&q2=Cycling&q3=Bike+Helmets&q4=Boys&rank=rank-bike-2017&sort=title&x1=c.category-level-1&x2=c.category-level-2&x3=c.category-level-3&x4=gender?cid=dsm-fy18-summer-essen-conto"
+            },
+            {
+              "title": "Girls’",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332261658_99_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/bike-helmets.html#preselectedBrandsNumber=0&preselectedCategoriesNumber=3&q1=Shop+by+Sport&q2=Cycling&q3=Bike+Helmets&q4=Girls&rank=rank-bike-2017&sort=title&x1=c.category-level-1&x2=c.category-level-2&x3=c.category-level-3&x4=gender?cid=dsm-fy18-summer-essen-conto"
+            }
+          ]
+        }
+      ],
+      "bike_3" : [
+        {
+          "type": "details",
+          "items": [
+            {
+              "title": "Bike accessories",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332233440_99_a?wid=288&hei=160&op_sharpen=1&resMode=sharp2&qlt=85,1",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/bike-parts-accessories.html?cid=dsm-fy18-summer-essen-conto"
+            }
+          ]
+        }
+      ],
+      "bike_4" : [
+        {
+          "type": "details",
+          "items": [
+            {
+              "title": "Cycling electronics",
+              "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332245228_99_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+              "link": "https://www.sportchek.ca/categories/shop-by-sport/cycling/electronics.html?cid=dsm-fy18-summer-essen-conto"
+            }
+          ]
+        }
+      ]
+    }
+
+
+}

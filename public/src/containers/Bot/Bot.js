@@ -5,6 +5,7 @@ import styles from "./styles.css";
 import {Button, Category, Details, Message, Navbar} from "../../components";
 import activitiyData from "../../Data/activitiy.json";
 import brandData from "../../Data/brand.json";
+import circleData from "../../Data/circle.json";
 
 export class Bot extends Component {
 
@@ -24,7 +25,8 @@ export class Bot extends Component {
             isInputFocused: false,
             typing: false,
             catId: null,
-            DataObject: props.location.query.botId == 'brand' ? brandData : activitiyData
+            DataObject: (props.location.query.botId == 'brand' ? brandData :
+                            (props.location.query.botId == 'bike' ? circleData : activitiyData))
         };
     }
 
@@ -87,10 +89,8 @@ export class Bot extends Component {
             let messages = [...this.state.messages];
 
             messages.push({
-                text: buttonObject.text,
                 type: buttonObject.type,
-                itemType: buttonObject.itemType,
-                payload: buttonObject.payload
+                buttonList: buttonObject.buttons
             });
 
             this.setState({
@@ -125,18 +125,6 @@ export class Bot extends Component {
         });
     };
 
-    openCategory = (items) => {
-    let catergoryList = this.state.DataObject.category;
-
-        for (let i = 0; i < catergoryList.length; i++) {
-            if(catergoryList[i].type === 'category') {
-                this.addContent(catergoryList[i][items], catergoryList[i].type)
-            } else {
-                this.addMessage(catergoryList[i].text, this.MSG_RECEIVE_TYPE, catergoryList[i].type);
-
-            }
-        }
-    };
 
     getMessageList = () => {
         if (this.state.messages.length === 0) {
@@ -151,42 +139,17 @@ export class Bot extends Component {
                 );
             } else if (message.type === 'button') {
                 return (
-                    <Button key={id} type={message.text_type} text={message.text}  onclick={()=> this.openCategory(message.itemType)}/>
+                    <Button key={id} list={message.buttonList} onclick={this.openCategory} />
                 )
             }
             else if (message.type === 'category') {
-                let self = this;
                 return (
-                    <div key={id} className={"row " + styles.catContainer}>
-                        {message.list.map((category) => {
-                            return (
-                                <Category
-                                    key={category.id}
-                                    image={category.image}
-                                    backgroundColor={category.backgroundColor}
-                                    title={category.title}
-                                    onClick={() => this.openDetails(category.id, category.title)}/>
-                            )
-                        })}
-                    </div>
+                    <Category key={id} list={message.list} onClick={this.openDetails} />
                 )
             }
             else if (message.type == 'details') {
-                let self = this;
                 return (
-                    <div key={id} className={"row " + styles.catContainer}>
-                        {
-                            message.list.map((detail, index) => {
-                                return (
-                                    <Details
-                                        key={index}
-                                        image={detail.image}
-                                        title={detail.title}
-                                        link={detail.link}/>
-                                )
-                            })
-                        }
-                    </div>
+                    <Details key={id} list={message.list} />
                 )
             }
         })
@@ -236,6 +199,9 @@ export class Bot extends Component {
             if(greetingList[i].type === 'button') {
                 this.addButton(greetingList[i]);
 
+            } else if(greetingList[i].type === 'category' && greetingList[i].initial) {
+                this.addContent(greetingList[i].items, greetingList[i].type)
+
             } else {
                 this.addMessage(greetingList[i].text, this.MSG_RECEIVE_TYPE, greetingList[i].type);
 
@@ -243,12 +209,15 @@ export class Bot extends Component {
         }
     };
 
-    getStarted = () => {
+    openCategory = (itemType) => {
         let catergoryList = this.state.DataObject.category;
 
         for (let i = 0; i < catergoryList.length; i++) {
             if(catergoryList[i].type === 'category') {
-                this.addContent(catergoryList[i].items, catergoryList[i].type)
+                if(catergoryList[i].initial)
+                    this.addContent(catergoryList[i].items, catergoryList[i].type)
+                else
+                    this.addContent(catergoryList[i][itemType], catergoryList[i].type)
             } else {
                 this.addMessage(catergoryList[i].text, this.MSG_RECEIVE_TYPE, catergoryList[i].type);
 

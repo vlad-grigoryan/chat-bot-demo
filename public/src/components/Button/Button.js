@@ -9,11 +9,20 @@ export default class Button extends Component {
     }
 
     render() {
-        const rowClassName = this.props.type === "base_sent" ? styles[this.props.type] : "";
         return (
             <div className={`row msg_block ${styles.msg_block} ${styles.msg_center}`}>
-                <button className={"btn " + styles.button} onClick={this.props.onclick}>{this.props.text}</button>
+                {
+                    this.props.list.map((buttonObject, index) => {
+                        return (
+                            <span>
+                                <button key={index} className={"btn " + styles.button} onClick={() => this.props.onclick(buttonObject.itemType)}>{buttonObject.text}</button>
+                                 &nbsp;
+                            </span>
+                        )
+                    })
+                }
             </div>
         );
+
     }
 }

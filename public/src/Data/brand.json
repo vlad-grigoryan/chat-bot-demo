@@ -1,6 +1,6 @@
 {
   "navBar": {
-    "title": "Brand"
+    "title": "Running"
   },
   "greeting": [
     {
@@ -9,15 +9,16 @@
     },
     {
       "type": "button",
-      "text": "Men’s ",
-      "itemType": "men",
-      "payload":"openMen"
-    },
-    {
-      "type": "button",
-      "text": "Women’s",
-      "itemType": "women",
-      "payload":"openWomen"
+      "buttons" : [
+        {
+          "text": "Men’s ",
+          "itemType": "men"
+        },
+        {
+          "text": "Women’s",
+          "itemType": "women"
+        }
+      ]
     }
   ],
   "category": [
@@ -27,6 +28,7 @@
     },
     {
       "type": "category",
+      "initial" : false,
       "men": [
         {
           "id": "men_0",
@@ -199,7 +201,7 @@
         "items": [
           {
             "title": "Fitbit & Running Electronics",
-            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332261796_99_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
+            "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332234251_99_a?wid=288&hei=155&op_sharpen=1&resMode=sharp2",
             "link": "https://www.sportchek.ca/categories/shop-by-sport/running/electronics.html?cid=dsm-fy18-summer-essen-conto"
           }
         ]

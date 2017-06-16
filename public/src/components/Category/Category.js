@@ -10,10 +10,18 @@ export default class Category extends Component {
 
     render() {
         return (
-            <div className={'msg_block ' + styles.item} style={{backgroundColor: this.props.backgroundColor}}
-                 onClick={this.props.onClick}>
-                <img className={styles.itemImage} src={this.props.image}/>
-                <span className={styles.title}>{this.props.title}</span>
+            <div className={"row " + styles.catContainer}>
+                {
+                    this.props.list.map((category, index) => {
+                        return (
+                            <div key={index} className={'msg_block ' + styles.item} style={{backgroundColor: category.backgroundColor}}
+                                 onClick={() => this.props.onClick(category.id, category.title)}>
+                                <img className={styles.itemImage} src={category.image}/>
+                                <span className={styles.title}>{category.title}</span>
+                            </div>
+                        )
+                    })
+                }
             </div>
         );
     }
